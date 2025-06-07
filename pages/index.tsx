@@ -1,12 +1,10 @@
-'use client';
-
 import { Box, Button } from '@chakra-ui/react';
 
 export default function Home() {
   return (
-    <Box className="min-h-screen bg-blue-100 flex items-center justify-center">
+    <Box className="min-h-screen flex items-center justify-center bg-blue-100">
       <Button colorScheme="teal" size="lg">
-        Chakra Button
+        Hello from Chakra
       </Button>
     </Box>
   );
