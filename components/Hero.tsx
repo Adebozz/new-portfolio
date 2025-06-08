@@ -1,21 +1,29 @@
 // components/Hero.tsx
-import { Box, Heading, Text, Button, useColorMode } from '@chakra-ui/react'
 
-const Hero = () => {
-  const { colorMode } = useColorMode()
+import { Box, Heading, Text, Button, Stack } from '@chakra-ui/react'
+
+export default function Hero() {
   return (
-    <Box
-      className="home-content"
-      px={8}
-      py={16}
-      textAlign="left"
-      bg={colorMode === 'light' ? 'gray.100' : 'gray.900'}
-    >
-      <Heading fontSize="6xl">Hi, I'm Your Name</Heading>
-      <Text mt={4}>I'm a web developer building beautiful UIs</Text>
-      <Button mt={6} colorScheme="teal">Explore More</Button>
+    <Box textAlign="center" py={20}>
+      <Heading
+        as="h1"
+        size="2xl"
+        mb={4}
+        className="animate-fadeInUp duration-700"
+      >
+        Hello, I’m Lucky 👋
+      </Heading>
+      <Text fontSize="lg" color="gray.600" _dark={{ color: 'gray.300' }} mb={6}>
+        A passionate web developer building beautiful and responsive web apps with modern tools.
+      </Text>
+      <Stack direction="row" justify="center" spacing={4}>
+        <Button colorScheme="teal" variant="solid">
+          View Projects
+        </Button>
+        <Button colorScheme="gray" variant="outline">
+          Contact Me
+        </Button>
+      </Stack>
     </Box>
   )
 }
-
-export default Hero

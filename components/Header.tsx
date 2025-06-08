@@ -1,27 +1,13 @@
-import { Flex, Box, Text } from '@chakra-ui/react'
+// components/Header.tsx
+import { Flex, Heading, Spacer } from '@chakra-ui/react'
 import { ColorToggle } from './ColorToggle'
 
-const Header = () => {
+export default function Header() {
   return (
-    <Flex
-      as="header"
-      justify="space-between"
-      align="center"
-      px={6}
-      py={4}
-      bg="transparent"
-      position="absolute"
-      w="100%"
-    >
-      <Box>
-        <Text fontSize="xl" fontWeight="bold">
-          MyLogo
-        </Text>
-      </Box>
-
+    <Flex as="header" p={4} align="center" bg="gray.100" _dark={{ bg: 'gray.800' }}>
+      <Heading size="md">My Portfolio</Heading>
+      <Spacer />
       <ColorToggle />
     </Flex>
   )
 }
-
-export default Header
