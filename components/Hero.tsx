@@ -11,7 +11,7 @@ export default function Hero() {
         mb={4}
         className="animate-fadeInUp duration-700"
       >
-        Hello, I’m Lucky 👋
+        Hello, I’m Adeboss 👋
       </Heading>
       <Text fontSize="lg" color="gray.600" _dark={{ color: 'gray.300' }} mb={6}>
         A passionate web developer building beautiful and responsive web apps with modern tools.

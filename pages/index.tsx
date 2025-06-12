@@ -7,6 +7,8 @@ import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Header from '@/components/Header'
 import BackToTopButton from '@/components/BackToTopButton'
+import Projects from '@/components/Projects'
+import Skills from '@/components/Skills'
 
 export default function Home() {
   return (
@@ -29,6 +31,14 @@ export default function Home() {
 
           <section id="about" className="mt-20 animate-fadeInUp duration-1000">
             <About />
+          </section>
+
+          <section id="skills" className="mt-20 animate-fadeInUp duration-1000">
+            <Skills />
+          </section>
+
+          <section id="projects" className="mt-20 animate-fadeInUp duration-1000">
+            <Projects />
           </section>
 
           <section id="contact" className="mt-20 animate-fadeInUp duration-1000">
