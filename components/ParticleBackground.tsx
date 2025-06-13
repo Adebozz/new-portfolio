@@ -1,4 +1,3 @@
-// components/ParticleBackground.tsx
 import React from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
@@ -13,10 +12,13 @@ const ParticleBackground = () => {
       id="tsparticles"
       init={particlesInit}
       options={{
-        fullScreen: { enable: true, zIndex: -1 },
+        fullScreen: {
+          enable: true,
+          zIndex: -1,
+        },
         background: {
           color: {
-            value: '#000', // set your background color
+            value: '#0f172a', // Optional, your background color
           },
         },
         particles: {
@@ -34,10 +36,10 @@ const ParticleBackground = () => {
             type: 'circle',
           },
           opacity: {
-            value: 0.5,
+            value: 0.3,
           },
           size: {
-            value: { min: 1, max: 3 },
+            value: { min: 1, max: 4 },
           },
           move: {
             enable: true,

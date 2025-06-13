@@ -20,13 +20,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <ParticleBackground />
+     
       <Box as="main" bg="gray.50" _dark={{ bg: 'gray.900' }} minH="100vh">
         {/* Top Navbar/Header with Color Toggle */}
         <Header />
-
+        <ParticleBackground />
         {/* Main Page Content */}
-        <Container maxW="7xl" px={4} py={10}>
+        <Container maxW="7xl" px={4} py={10} position="relative" zIndex={1}>
+          
           <section id="hero" className="animate-fadeIn duration-1000">
             <Hero />
           </section>
@@ -46,6 +47,7 @@ export default function Home() {
           <section id="contact" className="mt-20 animate-fadeInUp duration-1000">
             <Contact />
           </section>
+          
         </Container>
 
         {/* Scroll to Top */}
