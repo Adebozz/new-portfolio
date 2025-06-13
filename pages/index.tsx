@@ -9,7 +9,7 @@ import Header from '@/components/Header'
 import BackToTopButton from '@/components/BackToTopButton'
 import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
-import ParticleBackground from '@/components/ParticleBackground'
+
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
       <Box as="main" bg="gray.50" _dark={{ bg: 'gray.900' }} minH="100vh">
         {/* Top Navbar/Header with Color Toggle */}
         <Header />
-        <ParticleBackground />
+        
         {/* Main Page Content */}
         <Container maxW="7xl" px={4} py={10} position="relative" zIndex={1}>
           
