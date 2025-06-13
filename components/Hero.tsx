@@ -17,10 +17,10 @@ export default function Hero() {
         A passionate web developer building beautiful and responsive web apps with modern tools.
       </Text>
       <Stack direction="row" justify="center" spacing={4}>
-        <Button colorScheme="teal" variant="solid">
+        <Button as="a" href="#projects" colorScheme="teal" variant="solid">
           View Projects
         </Button>
-        <Button colorScheme="gray" variant="outline">
+        <Button as="a" href="#contact" colorScheme="gray" variant="outline">
           Contact Me
         </Button>
       </Stack>
