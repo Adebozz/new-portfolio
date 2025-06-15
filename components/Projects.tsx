@@ -42,9 +42,9 @@ const projectData = [
     title: 'Food Delivery App',
     description:
       'An online food ordering platform built using React.js, Tailwind CSS, REST API, and MongoDB.',
-    image: '/images/food-delivery-preview.png',
-    github: 'https://github.com/yourusername/food-delivery',
-    demo: 'https://food-delivery-demo.vercel.app',
+    image: '/images/food-del.jpg',
+    github: 'https://github.com/Adebozz/Adeboss-food',
+    demo: 'https://adeboss-food.vercel.app/',
   },
 ];
 
