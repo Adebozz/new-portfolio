@@ -34,7 +34,7 @@ const projectData = [
     title: 'PDF Converter',
     description:
       'A PDF file converter built with React.js, Tailwind CSS, and MongoDB.',
-    image: '/images/pdf-converter-preview.png',
+    image: '/images/pdf-convert.jpg',
     github: 'https://github.com/yourusername/pdf-converter',
     demo: 'https://pdf-converter-demo.vercel.app',
   },
